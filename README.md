@@ -22,7 +22,7 @@ Este proyecto se basa en el trabajo de [MoureDev](https://github.com/mouredev), 
 ## 🔥 Información importante
 
 * Puedes utilizar **cualquier lenguaje de programación**, y encontrar las correcciones de todos los compañeros en el directorio de cada reto.
-* **¿Quieres participar?** Echa un vistazo a las **[Instrucciones](https://github.com/Zugarramurdi/DAM-DAW-Collab-retos#instrucciones)** en este mismo documento.
+* **¿Quieres participar?** Echa un vistazo a las **[Instrucciones](https://github.com/Zugarramurdi/dam-daw-collab-retos#instrucciones)** en este mismo documento.
 * Los retos siguen un orden basado en su ruta de estudio pero si ya tienes conocimientos puedes resolverlos de manera totalmente independiente. Simplemente revisa su nivel de dificultad.
 
 ## 📍 Roadmap
@@ -85,7 +85,7 @@ Este proyecto se basa en el trabajo de [MoureDev](https://github.com/mouredev), 
 
 **Haz un FORK del proyecto y trabaja con Git para ir sincronizando las actualizaciones.**
 
-1. En el proyecto tienes un directorio para cada ejercicio en la carpeta [Roadmap](./Roadmap). Dentro de cada directorio encontrarás un fichero llamado **ejercicio.md** con el enunciado de cada reto.
+1. En el proyecto tienes un directorio para cada ejercicio en la carpeta [Roadmap](./Roadmap). Dentro de cada directorio encontrarás un fichero llamado ```ejercicio.md``` con el enunciado de cada reto.
 2. Si quieres compartir tu propia solución de un ejercicio con la comunidad, crea un fichero de código con tu nombre y extensión, y realiza una [**PULL REQUEST**](https://docs.github.com/es/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) contra el repositorio.
 3. El fichero de código debe situarse dentro del directorio del reto, en la carpeta correspondiente al lenguaje de programación utilizado (si no existe la carpeta del lenguaje, créala con todas sus letras en minúsculas). Por ejemplo, si has resuelto el reto #00 utilizando el lenguaje de programación Java y tu usuario de GitHub se llama "Zugarramurdi", tu corrección deberá estar en ```Roadmap/00 - SINTAXIS, VARIABLES, TIPOS DE DATOS Y HOLA MUNDO/java/Zugarramurdi.java``` En los ejercicios que se necesitan varias clases como en Herencia para tener las clases por separado, en la misma carpeta del lenguaje creamos una carpeta con el nombre del usuario y dentro las diferentes clases Ej: ```Roadmap/09 - HERENCIA/java/Zugarramurdi/Clase.java ...```. El título de la Pull Request también debe seguir este formato: **"#[número] - [lenguaje_utilizado]"**. En el ejemplo anterior sería **"#00 - Java"**. Se rechazarán las Pull Request que no sigan este formato o contengan ficheros adicionales.
 4. Puedes proponer Pull Request con propuestas o correcciones sobre ejercicios del resto de la comunidad si estos poseen errores. De esta manera colaboraremos para crear un repositorio cada vez más valioso.
