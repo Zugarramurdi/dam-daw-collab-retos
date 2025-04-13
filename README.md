@@ -81,7 +81,7 @@ Este proyecto se basa en el trabajo de [MoureDev](https://github.com/mouredev), 
 |49|[EL ALMACÉN DE PAPÁ NOEL](./Roadmap/49%20-%20EL%20ALMACÉN%20DE%20PAPÁ%20NOEL/ejercicio.md)|
 |50|[PLANIFICADOR DE OBJETIVOS DE AÑO NUEVO](./Roadmap/50%20-%20PLANIFICADOR%20DE%20OBJETIVOS%20DE%20A%C3%91O%20NUEVO/ejercicio.md)|
 
-## 📝 Instrucciones
+## Instrucciones
 
 **Haz un FORK del proyecto y trabaja con Git para ir sincronizando las actualizaciones.**
 
