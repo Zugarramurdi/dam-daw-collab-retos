@@ -68,7 +68,7 @@ public class Clarancedev {
         */
 
         // Creación
-        java.util.ArrayList<Integer> arrayList = new java.util.ArrayList<>();
+        ArrayList<Integer> arrayList = new ArrayList<>();
 
         // Inserción de valores (se añaden al final de la lista)
         arrayList.add(10);
@@ -87,7 +87,7 @@ public class Clarancedev {
         arrayList.set(4, 25);
 
         // Ordenación
-        java.util.Collections.sort(arrayList);
+        Collections.sort(arrayList);
 
         // Se recorren de la misma forma que un array
         for (int i = 0; i < arrayList.size(); i++) {
@@ -108,7 +108,7 @@ public class Clarancedev {
         */
 
         // Creación
-        java.util.LinkedList<Integer> linkedList = new java.util.LinkedList<>();
+        LinkedList<Integer> linkedList = new LinkedList<>();
 
         // Inserción de valores (se añaden al final de la lista)
         linkedList.add(10);
@@ -127,7 +127,7 @@ public class Clarancedev {
         linkedList.set(4, 25);
 
         // Ordenación de la lista
-        java.util.Collections.sort(linkedList);
+        Collections.sort(linkedList);
 
         // Se recorren de la misma forma que un array
         for (int i = 0; i < linkedList.size(); i++) {
@@ -285,13 +285,26 @@ public class Clarancedev {
     // Recoger opción seleccionada
     private static int getOption() {
 
+        int userOption = 0;
         if (SCN.hasNextInt()) {
-            int userOption = SCN.nextInt();
+            userOption = SCN.nextInt();
             SCN.nextLine();
+            checkUserOption(userOption);
             return userOption;
         } else {
-            System.out.println("Valor incorrecto. Introduzca un número entre 1 y 6.");
-            return -1;
+            System.out.println("Formato incorrecto. Debe introducir un número entre 1 y 6:");
+            SCN.nextLine();
+            getOption();
+        }
+        return userOption;
+    }
+
+    // Controlar input usuario (valor de tipo int entre 1 y 6)
+    private static void checkUserOption(int userOption) {
+
+        if (userOption < 1 || userOption > 6) {
+            System.out.println("Valor incorrecto. Debe introducir un número entre 1 y 6:");
+            getOption();
         }
     }
 
